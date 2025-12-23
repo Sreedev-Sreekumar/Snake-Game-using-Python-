@@ -30,6 +30,3 @@ MIT License. See [LICENSE](LICENSE) for details.
 ## 💡 Notes
 - Beginner-friendly Python project  
 - Can be extended with scoring, levels, or graphics
-
-- .................................................................................
-
