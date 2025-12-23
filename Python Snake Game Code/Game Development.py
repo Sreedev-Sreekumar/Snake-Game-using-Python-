@@ -9,7 +9,7 @@ pygame.init()
 try:
     pygame.mixer.init()
 except:
-    print("❌ Audio device error")
+    print("Audio device error")
     sys.exit()
 
 # ---------- SCREEN ----------
@@ -31,7 +31,7 @@ GAMEOVER_SOUND = "gameover.mp3"
 files = [BG_IMAGE, BG_MUSIC, BEEP_SOUND, GAMEOVER_SOUND]
 for f in files:
     if not os.path.exists(f):
-        print(f"❌ Missing file: {f}")
+        print(f" Missing file: {f}")
         sys.exit()
 
 # ---------- LOAD ASSETS ----------
@@ -155,4 +155,5 @@ def gameloop():
 welcome()
 
 #A Game using Python by Sreedev...
+
 
