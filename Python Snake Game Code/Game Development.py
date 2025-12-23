@@ -61,7 +61,7 @@ def welcome():
 
     while True:
         gameWindow.blit(bgimg, (0, 0))
-        text_screen("WELCOME TO S.N.A.K.E GAME", (0,0,0), 200, 250)
+        text_screen("WELCOME TO S.N.A.K.E",(0,0, 0), 275, 250)
         text_screen("Press SPACE to Play", (0,0,0), 300, 300)
 
         for event in pygame.event.get():
@@ -98,8 +98,9 @@ def gameloop():
                 over_played = True
 
             gameWindow.blit(bgimg, (0,0))
-            text_screen("GAME OVER", (255,0,0), 380, 260)
-            text_screen("Press ENTER", (0,0,0), 370, 300)
+            text_screen("GAME OVER", (255,0,0), 370, 260)
+            text_screen("Made by Sreedev Sreekumar", (0, 0, 0), 280, 550)
+            text_screen("Press ENTER", (0,0,0), 370, 310)
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
@@ -152,3 +153,6 @@ def gameloop():
 
 # ---------- START ----------
 welcome()
+
+#A Game using Python by Sreedev...
+
